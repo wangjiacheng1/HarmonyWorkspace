@@ -1,0 +1,48 @@
+{
+  "color": [
+    {
+      "name": "app_bg_color",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "qax_blue",
+      "value": "#276ded"
+    },
+    {
+      "name": "input_bg_color",
+      "value": "#F1F3F5"
+    },
+    {
+      "name": "placeholder_color",
+      "value": "#99182431"
+    },
+    {
+      "name": "line_color",
+      "value": "#33182431"
+    },
+    {
+      "name": "login_blue_text_color",
+      "value": "#007DFF"
+    },
+    {
+      "name": "search_view_bg_color",
+      "value": "#efefef"
+    },
+    {
+      "name": "tabs_select_text_color",
+      "value": "#2184f3"
+    },
+    {
+      "name": "tabs_normal_text_color",
+      "value": "#999999"
+    },
+    {
+      "name": "app_store_all_loaded_text_color",
+      "value": "#66008577"
+    }
+  ]
+}

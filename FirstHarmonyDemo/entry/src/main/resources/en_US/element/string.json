@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_btn_msg",
+      "value": "login"
+    },
+    {
+      "name": "app_name",
+      "value": "TrustSpace"
+    },
+    {
+      "name": "input_server_url",
+      "value": "Please enter the server address"
+    },
+    {
+      "name": "input_server_port",
+      "value": "Please enter the server port"
+    },
+    {
+      "name": "next_btn_text",
+      "value": "Next"
+    },
+    {
+      "name": "url_empty_error_msg",
+      "value": "The server address cannot be empty"
+    },
+    {
+      "name": "port_empty_error_msg",
+      "value": "The server port cannot be empty"
+    },
+    {
+      "name": "input_username_text",
+      "value": "username"
+    },
+    {
+      "name": "input_password_text",
+      "value": "password"
+    },
+    {
+      "name": "remember_pwd_text",
+      "value": "Remember password"
+    },
+    {
+      "name": "forget_pwd_text",
+      "value": "Forget password"
+    },
+    {
+      "name": "login_empty_tips",
+      "value": "Username and password cannot be empty"
+    },
+    {
+      "name": "app_store_available_page_title",
+      "value": "Apps"
+    },
+    {
+      "name": "app_store_installed_page_title",
+      "value": "Me"
+    },
+    {
+      "name": "app_store_search_hint",
+      "value": "Search for the fine apps"
+    },
+    {
+      "name": "app_store_all_loaded_text",
+      "value": "All loaded"
+    }
+  ]
+}

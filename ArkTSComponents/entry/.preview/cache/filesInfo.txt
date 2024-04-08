@@ -1,0 +1,9 @@
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/pages/LoginPage.js;com.example.component/entry/ets/pages/LoginPage;esm;entry/src/main/ets/pages/LoginPage.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/pages/TextPage.js;com.example.component/entry/ets/pages/TextPage;esm;entry/src/main/ets/pages/TextPage.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/entryability/EntryAbility.js;com.example.component/entry/ets/entryability/EntryAbility;esm;entry/src/main/ets/entryability/EntryAbility.ts;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/pages/MainPage.js;com.example.component/entry/ets/pages/MainPage;esm;entry/src/main/ets/pages/MainPage.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/common/constants/CommonConstants.js;com.example.component/entry/ets/common/constants/CommonConstants;esm;entry/src/main/ets/common/constants/CommonConstants.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/view/Home.js;com.example.component/entry/ets/view/Home;esm;entry/src/main/ets/view/Home.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/view/Setting.js;com.example.component/entry/ets/view/Setting;esm;entry/src/main/ets/view/Setting.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/viewmodel/MainViewModel.js;com.example.component/entry/ets/viewmodel/MainViewModel;esm;entry/src/main/ets/viewmodel/MainViewModel.ets;entry
+/Users/wangjiacheng/HarmonyWorkspace/ArkTSComponents/entry/.preview/cache/entry/src/main/ets/viewmodel/ItemData.js;com.example.component/entry/ets/viewmodel/ItemData;esm;entry/src/main/ets/viewmodel/ItemData.ets;entry

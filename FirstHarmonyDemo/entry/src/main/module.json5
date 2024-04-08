@@ -1,0 +1,56 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    //申请权限
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+        //MDM管控相关权限
+//        "name": "ohos.permission.ENTERPRISE_RESET_DEVICE",
+//        "name": "ohos.permission.MANAGE_ENTERPRISE_DEVICE_ADMIN"
+      }
+    ],
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "launchType": "singleton",
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    //MDM使用的ability
+    "extensionAbilities": [
+      {
+        "name": "ohos.samples.enterprise_admin_ext_ability",
+        "type": "enterpriseAdmin",
+        "exported": true,
+        "srcEntry": "./ets/mdm/EnterpriseAdminAbility.ts"
+      }
+    ]
+  }
+}

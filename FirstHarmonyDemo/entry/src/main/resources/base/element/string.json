@@ -1,0 +1,80 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "login_btn_msg",
+      "value": "login"
+    },
+    {
+      "name": "app_name",
+      "value": "TrustSpace"
+    },
+    {
+      "name": "input_server_url",
+      "value": "请输入服务器地址"
+    },
+    {
+      "name": "input_server_port",
+      "value": "请输入服务器端口"
+    },
+    {
+      "name": "next_btn_text",
+      "value": "下一步"
+    },
+    {
+      "name": "url_empty_error_msg",
+      "value": "服务器地址不能为空"
+    },
+    {
+      "name": "port_empty_error_msg",
+      "value": "服务器端口不能为空"
+    },
+    {
+      "name": "input_username_text",
+      "value": "用户名"
+    },
+    {
+      "name": "input_password_text",
+      "value": "密码"
+    },
+    {
+      "name": "remember_pwd_text",
+      "value": "记住密码"
+    },
+    {
+      "name": "forget_pwd_text",
+      "value": "忘记密码"
+    },
+    {
+      "name": "login_empty_tips",
+      "value": "用户名和密码不能为空"
+    },
+    {
+      "name": "app_store_available_page_title",
+      "value": "应用推荐"
+    },
+    {
+      "name": "app_store_installed_page_title",
+      "value": "我的应用"
+    },
+    {
+      "name": "app_store_search_hint",
+      "value": "搜索精品应用"
+    },
+    {
+      "name": "app_store_all_loaded_text",
+      "value": "已经全部加载"
+    }
+  ]
+}

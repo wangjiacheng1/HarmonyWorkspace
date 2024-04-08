@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginUrlEditPage",
+    "pages/LoginUserEditPage",
+    "pages/AppStoreMainPage",
+    "view/AvailableAppTab"
+  ]
+}

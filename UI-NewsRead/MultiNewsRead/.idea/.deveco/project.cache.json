@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.myapplication",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"4.1.3.700",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}

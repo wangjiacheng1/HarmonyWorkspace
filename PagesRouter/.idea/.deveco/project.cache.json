@@ -1,13 +1,16 @@
 {
 	"BuildOptions":{
 		"BUNDLE_NAME":"com.example.pagesrouter",
+		"SELECT_BUILD_MODE":"",
 		"BUILD_PATH":{
-			"OUTPUT_PATH":"/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/build/outputs/default"
+			"OUTPUT_PATH":"D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\build\\outputs\\default"
 		},
 		"SELECT_BUILD_PRODUCT":"default"
 	},
 	"CommonInfo":{
-		"project.ide.version":"3.1.0.501",
-		"current.select.product":"default"
+		"crossplatform.projectType":"",
+		"project.ide.version":"4.1.3.700",
+		"current.select.product":"default",
+		"current.select.buildMode":""
 	}
 }

@@ -1,0 +1,560 @@
+{
+    "record" : 
+    [
+        {
+            "id" : "0x01000000",
+            "name" : "app_icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000001",
+            "name" : "app_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000002",
+            "name" : "multi_image_group_04_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000003",
+            "name" : "video_preview_image_02",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000004",
+            "name" : "video_preview_image_01",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000005",
+            "name" : "startIcon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000006",
+            "name" : "top_image_bottom_text_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000007",
+            "name" : "list_to_grid_09",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000008",
+            "name" : "top_image_bottom_text_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000009",
+            "name" : "ic_big_more",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100000A",
+            "name" : "icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100000B",
+            "name" : "EntryAbility_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000C",
+            "name" : "EntryAbility_label",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000D",
+            "name" : "module_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000E",
+            "name" : "multi_image_group_01_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100000F",
+            "name" : "multi_image_group_01_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000010",
+            "name" : "multi_image_group_04_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000011",
+            "name" : "list_to_grid_01",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000012",
+            "name" : "list_to_grid_04",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000013",
+            "name" : "multi_image_group_03_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000014",
+            "name" : "multi_image_group_02_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000015",
+            "name" : "font_color",
+            "type" : "color"
+        },
+        {
+            "id" : "0x01000016",
+            "name" : "hot_rank_font_color",
+            "type" : "color"
+        },
+        {
+            "id" : "0x01000017",
+            "name" : "news_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x01000018",
+            "name" : "scroll_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x01000019",
+            "name" : "start_window_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0100001A",
+            "name" : "multi_image_group_02_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100001B",
+            "name" : "font_family",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100001C",
+            "name" : "font_family_bold",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100001D",
+            "name" : "font_family_normal",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100001E",
+            "name" : "hot_rank",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100001F",
+            "name" : "project_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000020",
+            "name" : "router_back",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000021",
+            "name" : "list_to_grid_13",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000022",
+            "name" : "list_to_grid_11",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000023",
+            "name" : "main_pages",
+            "type" : "profile"
+        },
+        {
+            "id" : "0x01000024",
+            "name" : "multi_image_group_05_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000025",
+            "name" : "list_to_grid_03",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000026",
+            "name" : "multi_image_group_05_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000027",
+            "name" : "ic_pause",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000028",
+            "name" : "ic_small_more",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000029",
+            "name" : "list_to_grid_02",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002A",
+            "name" : "list_to_grid_07",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002B",
+            "name" : "ic_dot",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002C",
+            "name" : "list_to_grid_12",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002D",
+            "name" : "multi_image_group_02_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002E",
+            "name" : "list_to_grid_10",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100002F",
+            "name" : "list_to_grid_06",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000030",
+            "name" : "multi_image_group_03_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000031",
+            "name" : "multi_image_group_04_2",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000032",
+            "name" : "top_image_bottom_text_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000033",
+            "name" : "list_to_grid_05",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000034",
+            "name" : "multi_image_group_01_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000035",
+            "name" : "list_to_grid_14",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000036",
+            "name" : "multi_image_group_05_3",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000037",
+            "name" : "multi_image_group_03_1",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000038",
+            "name" : "bigger_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000039",
+            "name" : "bigger_line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003A",
+            "name" : "bigger_more_icon_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003B",
+            "name" : "brief_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003C",
+            "name" : "brief_line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003D",
+            "name" : "cards_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003E",
+            "name" : "container_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100003F",
+            "name" : "duration_container_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000040",
+            "name" : "duration_container_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000041",
+            "name" : "duration_container_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000042",
+            "name" : "duration_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000043",
+            "name" : "duration_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000044",
+            "name" : "grid_gutter",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000045",
+            "name" : "grid_gutter_bigger",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000046",
+            "name" : "header_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000047",
+            "name" : "hot_rank_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000048",
+            "name" : "ic_more_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000049",
+            "name" : "image_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004A",
+            "name" : "left_text_right_image_bottom_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004B",
+            "name" : "left_text_right_image_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004C",
+            "name" : "left_text_right_image_normal_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004D",
+            "name" : "line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004E",
+            "name" : "list_gutter",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100004F",
+            "name" : "multi_image_news_line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000050",
+            "name" : "news_big_title_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000051",
+            "name" : "news_list_common_space",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000052",
+            "name" : "news_small_title_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000053",
+            "name" : "normal_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000054",
+            "name" : "normal_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000055",
+            "name" : "play_icon_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000056",
+            "name" : "play_icon_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000057",
+            "name" : "play_icon_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000058",
+            "name" : "publisher_info_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000059",
+            "name" : "publisher_info_space_bottom",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005A",
+            "name" : "rank_card_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005B",
+            "name" : "rank_card_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005C",
+            "name" : "rank_list_line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005D",
+            "name" : "rank_list_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005E",
+            "name" : "rank_span_text",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100005F",
+            "name" : "relative_container_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000060",
+            "name" : "small_border_radius",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000061",
+            "name" : "small_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000062",
+            "name" : "small_line_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000063",
+            "name" : "small_more_icon_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000064",
+            "name" : "smallest_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000065",
+            "name" : "square_image_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000066",
+            "name" : "text_margin_image",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000067",
+            "name" : "title_font_size",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000068",
+            "name" : "title_margin_space",
+            "type" : "float"
+        },
+        {
+            "id" : "0x01000069",
+            "name" : "video_card_info_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100006A",
+            "name" : "video_card_info_padding",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100006B",
+            "name" : "video_card_info_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100006C",
+            "name" : "video_card_title_height",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100006D",
+            "name" : "video_card_title_width",
+            "type" : "float"
+        },
+        {
+            "id" : "0x0100006E",
+            "name" : "ic_back",
+            "type" : "media"
+        }
+    ]
+}

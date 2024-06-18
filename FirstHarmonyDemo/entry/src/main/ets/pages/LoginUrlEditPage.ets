@@ -100,19 +100,19 @@ struct LoginUrlEdit {
   }
 
   goToUserEditView(){
-    var error:Resource = null;
+    let error:Resource;
     if (TextUtils.isEmpty(this.inputUrl)) {
       error = $r('app.string.url_empty_error_msg')
     }else if (TextUtils.isEmpty(this.inputPort)) {
       error = $r('app.string.port_empty_error_msg')
     }
 
-    if (error != null) {
-      promptAction.showToast({
-        message: error
-      })
-      return;
-    }
+    // if (error != null) {
+    //   promptAction.showToast({
+    //     message: error
+    //   })
+    //   return;
+    // }
     router.replaceUrl({
       url:CommonConstants.LOGIN_USER_EDIT_VIEW_URL,
       params:{

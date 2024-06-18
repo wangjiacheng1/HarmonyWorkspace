@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.samples.concurrentmodule",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"D:\\PrivateSpace\\HarmonyWorkspace\\yuyan-Async\\ConcurrentModule\\build\\outputs\\default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"4.1.3.700",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}

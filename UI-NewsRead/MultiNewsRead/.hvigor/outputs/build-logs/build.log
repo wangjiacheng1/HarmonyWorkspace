@@ -1,0 +1,627 @@
+[2024-06-18T14:50:57.380] [DEBUG] debug-file - env: nodejsVersion=v18.14.1
+[2024-06-18T14:50:57.384] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '4.1.2',
+  dependencies: { '@ohos/hvigor-ohos-plugin': '4.1.2' },
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2024-06-18T14:50:57.422] [DEBUG] debug-file - env: daemon=true
+[2024-06-18T14:50:59.407] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  analyze: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: []
+}
+[2024-06-18T14:50:59.501] [DEBUG] debug-file - session manager: set active socket. socketId=LeGHaRFROsl7hSxCAAAB
+[2024-06-18T14:51:01.717] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-06-18T14:51:01.728] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-06-18T14:51:01.733] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2024-06-18T14:51:01.735] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:51:08.034] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-06-18T14:51:08.034] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-06-18T14:51:08.241] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-06-18T14:51:08.241] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:51:08.241] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:51:08.243] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:51:08.255] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-06-18T14:51:08.256] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-06-18T14:51:08.274] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-06-18T14:51:08.274] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-06-18T14:51:08.285] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-06-18T14:51:08.285] [DEBUG] debug-file - Target 'default' config: {}
+[2024-06-18T14:51:08.287] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-06-18T14:51:08.287] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2024-06-18T14:51:08.287] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2024-06-18T14:51:08.287] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-06-18T14:51:08.288] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-06-18T14:51:08.290] [DEBUG] debug-file - require SDK: toolchains,ArkTS; moduleName=entry
+[2024-06-18T14:51:08.305] [DEBUG] debug-file - Module entry task initialization takes 12 ms 
+[2024-06-18T14:51:08.305] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-06-18T14:51:08.305] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:51:08.305] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:51:08.336] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 31 ms 
+[2024-06-18T14:51:08.337] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-06-18T14:51:08.337] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-06-18T14:51:08.337] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-06-18T14:51:08.337] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-06-18T14:51:08.339] [DEBUG] debug-file - Module MultiNewsRead Collected Dependency: 
+[2024-06-18T14:51:08.339] [DEBUG] debug-file - Module MultiNewsRead's total dependency: 0
+[2024-06-18T14:51:08.341] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-06-18T14:51:08.352] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains
+[2024-06-18T14:51:08.382] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains
+[2024-06-18T14:51:08.407] [DEBUG] debug-file - Sdk init in 59 ms 
+[2024-06-18T14:51:08.434] [DEBUG] debug-file - Project task initialization takes 22 ms 
+[2024-06-18T14:51:08.437] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets
+[2024-06-18T14:51:08.466] [DEBUG] debug-file - Sdk init in 32 ms 
+[2024-06-18T14:51:08.469] [DEBUG] debug-file - project has submodules:entry
+[2024-06-18T14:51:08.471] [DEBUG] debug-file - Configuration phase cost:6 s 738 ms 
+[2024-06-18T14:51:08.473] [DEBUG] debug-file - Configuration task cost before running: 6 s 750 ms 
+[2024-06-18T14:51:08.474] [DEBUG] debug-file - entry : init start {
+  rss: 160022528,
+  heapTotal: 122028032,
+  heapUsed: 93308992,
+  external: 1051278,
+  arrayBuffers: 103492
+}
+[2024-06-18T14:51:08.474] [DEBUG] debug-file - Executing task :entry:init
+[2024-06-18T14:51:08.476] [DEBUG] debug-file - entry : init end {
+  rss: 160034816,
+  heapTotal: 122028032,
+  heapUsed: 93390008,
+  external: 1051318,
+  arrayBuffers: 104433
+}
+[2024-06-18T14:51:08.476] [DEBUG] debug-file - runTaskFromQueue task cost before running: 6 s 753 ms 
+[2024-06-18T14:51:08.476] [INFO] debug-file - Finished :entry:init... after 3 ms 
+[2024-06-18T14:51:08.477] [DEBUG] debug-file - MultiNewsRead : init start {
+  rss: 160059392,
+  heapTotal: 122028032,
+  heapUsed: 93443848,
+  external: 1051318,
+  arrayBuffers: 106241
+}
+[2024-06-18T14:51:08.477] [DEBUG] debug-file - Executing task ::init
+[2024-06-18T14:51:08.477] [DEBUG] debug-file - MultiNewsRead : init end {
+  rss: 160067584,
+  heapTotal: 122028032,
+  heapUsed: 93469528,
+  external: 1051318,
+  arrayBuffers: 107185
+}
+[2024-06-18T14:51:08.477] [DEBUG] debug-file - runTaskFromQueue task cost before running: 6 s 754 ms 
+[2024-06-18T14:51:08.477] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-06-18T14:51:08.491] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-06-18T14:51:08.502] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2024-06-18T14:51:08.507] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-06-18T14:51:08.515] [DEBUG] debug-file - The build request was finished
+[2024-06-18T14:51:08.507] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-06-18T14:51:08.509] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-06-18T14:51:08.513] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-06-18T14:51:08.521] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-06-18T14:51:08.523] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-06-18T14:51:08.526] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-06-18T14:51:08.531] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-06-18T14:51:08.531] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-06-18T14:57:27.374] [DEBUG] debug-file - session manager: set active socket. socketId=JTex7J0wC7JDlhRuAAAD
+[2024-06-18T14:57:27.390] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-06-18T14:57:27.398] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-06-18T14:57:27.398] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2024-06-18T14:57:27.400] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:57:27.411] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-06-18T14:57:27.411] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-06-18T14:57:27.421] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-06-18T14:57:27.421] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:57:27.421] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\hvigorfile.ts
+[2024-06-18T14:57:27.423] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:57:27.429] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2024-06-18T14:57:27.429] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2024-06-18T14:57:27.441] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-06-18T14:57:27.441] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-06-18T14:57:27.447] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-06-18T14:57:27.447] [DEBUG] debug-file - Target 'default' config: {}
+[2024-06-18T14:57:27.447] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2024-06-18T14:57:27.447] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2024-06-18T14:57:27.448] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2024-06-18T14:57:27.448] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-06-18T14:57:27.448] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2024-06-18T14:57:27.450] [DEBUG] debug-file - require SDK: toolchains,ArkTS; moduleName=entry
+[2024-06-18T14:57:27.459] [DEBUG] debug-file - Module entry task initialization takes 7 ms 
+[2024-06-18T14:57:27.459] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2024-06-18T14:57:27.460] [DEBUG] debug-file - hvigorfile, no custom plugins were found in D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:57:27.460] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\hvigorfile.ts
+[2024-06-18T14:57:27.488] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 29 ms 
+[2024-06-18T14:57:27.489] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-06-18T14:57:27.489] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-06-18T14:57:27.489] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-06-18T14:57:27.489] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-06-18T14:57:27.490] [DEBUG] debug-file - Module MultiNewsRead Collected Dependency: 
+[2024-06-18T14:57:27.491] [DEBUG] debug-file - Module MultiNewsRead's total dependency: 0
+[2024-06-18T14:57:27.494] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-06-18T14:57:27.506] [DEBUG] debug-file - Sdk init in 5 ms 
+[2024-06-18T14:57:27.529] [DEBUG] debug-file - Project task initialization takes 23 ms 
+[2024-06-18T14:57:27.533] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets
+[2024-06-18T14:57:27.573] [DEBUG] debug-file - Sdk init in 44 ms 
+[2024-06-18T14:57:27.575] [DEBUG] debug-file - project has submodules:entry
+[2024-06-18T14:57:27.577] [DEBUG] debug-file - Configuration phase cost:179 ms 
+[2024-06-18T14:57:27.578] [DEBUG] debug-file - Configuration task cost before running: 184 ms 
+[2024-06-18T14:57:27.580] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.580] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.587] [DEBUG] debug-file - entry : default@PreBuild start {
+  rss: 149360640,
+  heapTotal: 83755008,
+  heapUsed: 78875320,
+  external: 1042348,
+  arrayBuffers: 95772
+}
+[2024-06-18T14:57:27.587] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-06-18T14:57:27.596] [DEBUG] debug-file - current product is not Atomic service.
+[2024-06-18T14:57:27.756] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\harmony\\DevEco Studio\\jbr' },
+  {
+    CLASSPATH: '.;D:\\Java\\jdk1.8\\lib\\dt.jar;D:\\Java\\jdk1.8\\lib\\tools.jar;'
+  }
+]
+[2024-06-18T14:57:27.757] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'C:\\Users\\wangjiacheng\\node\\node-18.14.1' } ]
+[2024-06-18T14:57:27.760] [DEBUG] debug-file - entry : default@PreBuild end {
+  rss: 163520512,
+  heapTotal: 105345024,
+  heapUsed: 88599280,
+  external: 1042348,
+  arrayBuffers: 98255
+}
+[2024-06-18T14:57:27.760] [DEBUG] debug-file - runTaskFromQueue task cost before running: 366 ms 
+[2024-06-18T14:57:27.765] [INFO] debug-file - Finished :entry:default@PreBuild... after 174 ms 
+[2024-06-18T14:57:27.768] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.769] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.770] [DEBUG] debug-file - entry : default@PreCheckSyscap start {
+  rss: 163553280,
+  heapTotal: 105345024,
+  heapUsed: 88879840,
+  external: 1042348,
+  arrayBuffers: 101132
+}
+[2024-06-18T14:57:27.770] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-06-18T14:57:27.770] [DEBUG] debug-file - entry : default@PreCheckSyscap end {
+  rss: 163557376,
+  heapTotal: 105345024,
+  heapUsed: 88906352,
+  external: 1042348,
+  arrayBuffers: 102109
+}
+[2024-06-18T14:57:27.771] [DEBUG] debug-file - runTaskFromQueue task cost before running: 377 ms 
+[2024-06-18T14:57:27.771] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-06-18T14:57:27.774] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.774] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.775] [DEBUG] debug-file - entry : default@CreateBuildProfile start {
+  rss: 163569664,
+  heapTotal: 105345024,
+  heapUsed: 89137312,
+  external: 1042348,
+  arrayBuffers: 105001
+}
+[2024-06-18T14:57:27.776] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-06-18T14:57:27.788] [DEBUG] debug-file - entry : default@CreateBuildProfile end {
+  rss: 163475456,
+  heapTotal: 105082880,
+  heapUsed: 75738888,
+  external: 1050540,
+  arrayBuffers: 81410
+}
+[2024-06-18T14:57:27.789] [DEBUG] debug-file - runTaskFromQueue task cost before running: 395 ms 
+[2024-06-18T14:57:27.790] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 14 ms 
+[2024-06-18T14:57:27.792] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.792] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.800] [DEBUG] debug-file - entry : default@GenerateLoaderJson start {
+  rss: 163504128,
+  heapTotal: 105082880,
+  heapUsed: 76158216,
+  external: 1025964,
+  arrayBuffers: 92507
+}
+[2024-06-18T14:57:27.801] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-06-18T14:57:27.812] [DEBUG] debug-file - entry : default@GenerateLoaderJson end {
+  rss: 163536896,
+  heapTotal: 105082880,
+  heapUsed: 76247176,
+  external: 1034156,
+  arrayBuffers: 101683
+}
+[2024-06-18T14:57:27.812] [DEBUG] debug-file - runTaskFromQueue task cost before running: 418 ms 
+[2024-06-18T14:57:27.814] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 12 ms 
+[2024-06-18T14:57:27.816] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.816] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.819] [DEBUG] debug-file - entry : default@MergeProfile start {
+  rss: 163549184,
+  heapTotal: 105082880,
+  heapUsed: 76525080,
+  external: 1034156,
+  arrayBuffers: 104589
+}
+[2024-06-18T14:57:27.819] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-06-18T14:57:27.821] [DEBUG] debug-file - Change app api release type with 'Release'
+[2024-06-18T14:57:27.821] [DEBUG] debug-file - Change app compile API version with '4.1.0.73'
+[2024-06-18T14:57:27.821] [DEBUG] debug-file - Change app target API version with '40100011'
+[2024-06-18T14:57:27.821] [DEBUG] debug-file - Change app minimum API version with '40100011'
+[2024-06-18T14:57:27.825] [DEBUG] debug-file - entry : default@MergeProfile end {
+  rss: 163565568,
+  heapTotal: 105082880,
+  heapUsed: 76671280,
+  external: 1034156,
+  arrayBuffers: 107233
+}
+[2024-06-18T14:57:27.825] [DEBUG] debug-file - runTaskFromQueue task cost before running: 431 ms 
+[2024-06-18T14:57:27.825] [INFO] debug-file - Finished :entry:default@MergeProfile... after 6 ms 
+[2024-06-18T14:57:27.827] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:27.828] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:27.832] [DEBUG] debug-file - entry : default@ProcessProfile start {
+  rss: 163569664,
+  heapTotal: 105082880,
+  heapUsed: 76975040,
+  external: 1042348,
+  arrayBuffers: 118311
+}
+[2024-06-18T14:57:27.833] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-06-18T14:57:27.835] [DEBUG] debug-file - [
+  'C:\\Users\\wangjiacheng\\node\\node-18.14.1\\node.exe',
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '11'
+]
+[2024-06-18T14:57:28.951] [DEBUG] debug-file - 11.0.2.0
+[2024-06-18T14:57:28.955] [DEBUG] debug-file - entry : default@ProcessProfile end {
+  rss: 163012608,
+  heapTotal: 105082880,
+  heapUsed: 78857104,
+  external: 1089692,
+  arrayBuffers: 167645
+}
+[2024-06-18T14:57:28.955] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 561 ms 
+[2024-06-18T14:57:28.955] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 1 s 123 ms 
+[2024-06-18T14:57:28.957] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:28.957] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:28.963] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2024-06-18T14:57:28.967] [DEBUG] debug-file - entry : default@PreviewProcessResource start {
+  rss: 163430400,
+  heapTotal: 105082880,
+  heapUsed: 79201264,
+  external: 1097884,
+  arrayBuffers: 179204
+}
+[2024-06-18T14:57:28.975] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2024-06-18T14:57:28.976] [DEBUG] debug-file - entry : default@PreviewProcessResource end {
+  rss: 163442688,
+  heapTotal: 105082880,
+  heapUsed: 79335952,
+  external: 1097884,
+  arrayBuffers: 180197
+}
+[2024-06-18T14:57:28.980] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 586 ms 
+[2024-06-18T14:57:28.987] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 9 ms 
+[2024-06-18T14:57:28.989] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:28.989] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:28.993] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2024-06-18T14:57:28.996] [DEBUG] debug-file - entry : default@PreviewCompileResource start {
+  rss: 163475456,
+  heapTotal: 105082880,
+  heapUsed: 79900368,
+  external: 1114268,
+  arrayBuffers: 199960
+}
+[2024-06-18T14:57:28.997] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2024-06-18T14:57:29.010] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-x',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\AppScope\\resources',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+]
+[2024-06-18T14:57:29.011] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 163680256,
+  heapTotal: 105082880,
+  heapUsed: 80238296,
+  external: 1114268,
+  arrayBuffers: 148824
+} os memoryUsage :13.641239166259766
+[2024-06-18T14:57:29.878] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-06-18T14:57:29.990] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-x',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\src\\main\\resources',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+]
+[2024-06-18T14:57:29.991] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 163926016,
+  heapTotal: 105082880,
+  heapUsed: 80563688,
+  external: 1114394,
+  arrayBuffers: 148965
+} os memoryUsage :13.645587921142578
+[2024-06-18T14:57:30.726] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-06-18T14:57:30.803] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  '-p',
+  'com.example.myapplication',
+  '-r',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  '-z',
+  '--ids',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '-i',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  '-i',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\UI-NewsRead\\MultiNewsRead\\entry\\.preview\\default\\intermediates\\res\\default'
+]
+[2024-06-18T14:57:30.804] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 164159488,
+  heapTotal: 105082880,
+  heapUsed: 80802000,
+  external: 1114520,
+  arrayBuffers: 149946
+} os memoryUsage :13.646736145019531
+[2024-06-18T14:57:31.585] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-06-18T14:57:31.677] [DEBUG] debug-file - entry : default@PreviewCompileResource end {
+  rss: 164347904,
+  heapTotal: 105082880,
+  heapUsed: 80963128,
+  external: 1114646,
+  arrayBuffers: 148304
+}
+[2024-06-18T14:57:31.678] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 284 ms 
+[2024-06-18T14:57:31.682] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 2 s 682 ms 
+[2024-06-18T14:57:31.686] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:31.686] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:31.686] [DEBUG] debug-file - entry : default@PreviewHookCompileResource start {
+  rss: 164560896,
+  heapTotal: 105082880,
+  heapUsed: 81200824,
+  external: 1114646,
+  arrayBuffers: 151236
+}
+[2024-06-18T14:57:31.687] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2024-06-18T14:57:31.687] [DEBUG] debug-file - entry : default@PreviewHookCompileResource end {
+  rss: 164589568,
+  heapTotal: 105082880,
+  heapUsed: 81227992,
+  external: 1114646,
+  arrayBuffers: 152237
+}
+[2024-06-18T14:57:31.687] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 293 ms 
+[2024-06-18T14:57:31.688] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2024-06-18T14:57:31.691] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:31.691] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:31.694] [DEBUG] debug-file - entry : default@CopyPreviewProfile start {
+  rss: 164794368,
+  heapTotal: 105082880,
+  heapUsed: 81447824,
+  external: 1122838,
+  arrayBuffers: 163361
+}
+[2024-06-18T14:57:31.694] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2024-06-18T14:57:31.714] [DEBUG] debug-file - entry : default@CopyPreviewProfile end {
+  rss: 165154816,
+  heapTotal: 105082880,
+  heapUsed: 81816112,
+  external: 1122838,
+  arrayBuffers: 164346
+}
+[2024-06-18T14:57:31.714] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 320 ms 
+[2024-06-18T14:57:31.714] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 20 ms 
+[2024-06-18T14:57:31.717] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:31.717] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:31.718] [DEBUG] debug-file - entry : default@ReplacePreviewerPage start {
+  rss: 165388288,
+  heapTotal: 105082880,
+  heapUsed: 82067936,
+  external: 1122838,
+  arrayBuffers: 167256
+}
+[2024-06-18T14:57:31.718] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2024-06-18T14:57:31.721] [DEBUG] debug-file - entry : default@ReplacePreviewerPage end {
+  rss: 165507072,
+  heapTotal: 105082880,
+  heapUsed: 82124984,
+  external: 1122838,
+  arrayBuffers: 168245
+}
+[2024-06-18T14:57:31.721] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 327 ms 
+[2024-06-18T14:57:31.721] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 3 ms 
+[2024-06-18T14:57:31.724] [DEBUG] debug-file - entry : buildPreviewerResource start {
+  rss: 166039552,
+  heapTotal: 105082880,
+  heapUsed: 82292056,
+  external: 1122838,
+  arrayBuffers: 170125
+}
+[2024-06-18T14:57:31.724] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2024-06-18T14:57:31.724] [DEBUG] debug-file - entry : buildPreviewerResource end {
+  rss: 166068224,
+  heapTotal: 105082880,
+  heapUsed: 82321272,
+  external: 1122838,
+  arrayBuffers: 171102
+}
+[2024-06-18T14:57:31.725] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 331 ms 
+[2024-06-18T14:57:31.725] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2024-06-18T14:57:31.728] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:31.728] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:31.729] [DEBUG] debug-file - entry : default@PreviewUpdateAssets start {
+  rss: 166305792,
+  heapTotal: 105082880,
+  heapUsed: 82570488,
+  external: 1122838,
+  arrayBuffers: 173998
+}
+[2024-06-18T14:57:31.729] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2024-06-18T14:57:31.741] [DEBUG] debug-file - entry : default@PreviewUpdateAssets end {
+  rss: 166449152,
+  heapTotal: 105082880,
+  heapUsed: 82725880,
+  external: 1131030,
+  arrayBuffers: 183177
+}
+[2024-06-18T14:57:31.741] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 347 ms 
+[2024-06-18T14:57:31.743] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 12 ms 
+[2024-06-18T14:57:31.745] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-06-18T14:57:31.745] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2024-06-18T14:57:31.755] [DEBUG] debug-file - entry : default@PreviewArkTS start {
+  rss: 166944768,
+  heapTotal: 105082880,
+  heapUsed: 83245840,
+  external: 1147414,
+  arrayBuffers: 202474
+}
+[2024-06-18T14:57:31.755] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2024-06-18T14:57:31.761] [DEBUG] debug-file - Obfuscation config only effect in release mode.
+[2024-06-18T14:57:31.783] [DEBUG] debug-file - session manager: binding session. socketId=JTex7J0wC7JDlhRuAAAD, threadId=1@1.
+[2024-06-18T14:57:31.783] [DEBUG] debug-file - entry : default@PreviewArkTS end {
+  rss: 167960576,
+  heapTotal: 105082880,
+  heapUsed: 83858920,
+  external: 1163798,
+  arrayBuffers: 220290
+}
+[2024-06-18T14:57:37.375] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2024-06-18T14:57:37.376] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2024-06-18T14:57:48.543] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2024-06-18T14:57:48.546] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2024-06-18T14:57:48.544] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2024-06-18T14:57:48.550] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2024-06-18T14:57:52.262] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2024-06-18T14:57:52.266] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2024-06-18T14:57:52.265] [DEBUG] debug-file - Ark compile finished.
+[2024-06-18T14:57:52.273] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 29 ms 
+[2024-06-18T14:57:52.274] [DEBUG] debug-file - entry : PreviewBuild start {
+  rss: 699265024,
+  heapTotal: 105082880,
+  heapUsed: 78255544,
+  external: 1034156,
+  arrayBuffers: 68689
+}
+[2024-06-18T14:57:52.274] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2024-06-18T14:57:52.274] [DEBUG] debug-file - entry : PreviewBuild end {
+  rss: 699305984,
+  heapTotal: 105082880,
+  heapUsed: 78280224,
+  external: 1034156,
+  arrayBuffers: 69645
+}
+[2024-06-18T14:57:52.275] [DEBUG] debug-file - runTaskFromQueue task cost before running: 24 s 881 ms 
+[2024-06-18T14:57:52.275] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2024-06-18T14:57:52.275] [DEBUG] debug-file - BUILD SUCCESSFUL in 24 s 881 ms 
+[2024-06-18T14:57:52.277] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\AppScope\app.json5 cache by regenerate.
+[2024-06-18T14:57:52.279] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\module.json5 cache by regenerate.
+[2024-06-18T14:57:52.279] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\build-profile.json5 cache by regenerate.
+[2024-06-18T14:57:52.281] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\build-profile.json5 cache by regenerate.
+[2024-06-18T14:57:52.282] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2024-06-18T14:57:52.283] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\oh-package.json5 cache by regenerate.
+[2024-06-18T14:57:52.284] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:9 ms .
+[2024-06-18T14:57:52.284] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\AppScope\app.json5 cache by regenerate.
+[2024-06-18T14:57:52.285] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\build-profile.json5 cache by regenerate.
+[2024-06-18T14:57:52.287] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\generated\profile\default\BuildProfile.ets cache.
+[2024-06-18T14:57:52.288] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:5 ms .
+[2024-06-18T14:57:52.289] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\loader\default\loader.json cache.
+[2024-06-18T14:57:52.290] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:1 ms .
+[2024-06-18T14:57:52.290] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\AppScope\app.json5 cache by regenerate.
+[2024-06-18T14:57:52.290] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\build-profile.json5 cache by regenerate.
+[2024-06-18T14:57:52.291] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\module.json5 cache by regenerate.
+[2024-06-18T14:57:52.292] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\merge_profile\default\module.json cache.
+[2024-06-18T14:57:52.292] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:3 ms .
+[2024-06-18T14:57:52.293] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-06-18T14:57:52.293] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\process_profile\default\module.json cache.
+[2024-06-18T14:57:52.294] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:2 ms .
+[2024-06-18T14:57:52.296] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\resources cache by regenerate.
+[2024-06-18T14:57:52.323] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-06-18T14:57:52.324] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default cache.
+[2024-06-18T14:57:52.353] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\generated\r\default cache.
+[2024-06-18T14:57:52.355] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:61 ms .
+[2024-06-18T14:57:52.355] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\resources\base\profile cache by regenerate.
+[2024-06-18T14:57:52.356] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2024-06-18T14:57:52.358] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:3 ms .
+[2024-06-18T14:57:52.358] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\module.json cache.
+[2024-06-18T14:57:52.359] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2024-06-18T14:57:52.360] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:3 ms .
+[2024-06-18T14:57:52.365] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2024-06-18T14:57:52.366] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2024-06-18T14:57:52.367] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\module.json cache by regenerate.
+[2024-06-18T14:57:52.367] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2024-06-18T14:57:52.369] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\src\main\ets cache by regenerate.
+[2024-06-18T14:57:52.388] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2024-06-18T14:57:52.389] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\PrivateSpace\HarmonyWorkspace\UI-NewsRead\MultiNewsRead\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2024-06-18T14:57:52.389] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:30 ms .
+[2024-06-18T14:57:52.420] [DEBUG] debug-file - hvigor build process will be closed.

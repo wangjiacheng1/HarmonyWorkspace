@@ -1,0 +1,70 @@
+{
+    "app" : 
+    {
+        "apiReleaseType" : "Release",
+        "bundleName" : "com.samples.concurrentmodule",
+        "bundleType" : "app",
+        "compileSdkType" : "HarmonyOS",
+        "compileSdkVersion" : "4.1.0.73",
+        "debug" : true,
+        "icon" : "$media:app_icon",
+        "iconId" : 16777217,
+        "label" : "$string:app_name",
+        "labelId" : 16777216,
+        "minAPIVersion" : 40100011,
+        "targetAPIVersion" : 40100011,
+        "vendor" : "example",
+        "versionCode" : 1000000,
+        "versionName" : "1.0.0"
+    },
+    "module" : 
+    {
+        "abilities" : 
+        [
+            {
+                "description" : "$string:EntryAbility_desc",
+                "descriptionId" : 16777222,
+                "exported" : true,
+                "icon" : "$media:icon",
+                "iconId" : 16777246,
+                "label" : "$string:EntryAbility_label",
+                "labelId" : 16777223,
+                "name" : "EntryAbility",
+                "skills" : 
+                [
+                    {
+                        "actions" : 
+                        [
+                            "action.system.home"
+                        ],
+                        "entities" : 
+                        [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "srcEntry" : "./ets/entryability/EntryAbility.ets",
+                "startWindowBackground" : "$color:start_window_background",
+                "startWindowBackgroundId" : 16777245,
+                "startWindowIcon" : "$media:icon",
+                "startWindowIconId" : 16777246
+            }
+        ],
+        "compileMode" : "esmodule",
+        "deliveryWithInstall" : true,
+        "dependencies" : [],
+        "description" : "$string:module_desc",
+        "descriptionId" : 16777233,
+        "deviceTypes" : 
+        [
+            "phone",
+            "tablet"
+        ],
+        "installationFree" : false,
+        "mainElement" : "EntryAbility",
+        "name" : "entry",
+        "pages" : "$profile:main_pages",
+        "type" : "entry",
+        "virtualMachine" : "ark11.0.2.0"
+    }
+}

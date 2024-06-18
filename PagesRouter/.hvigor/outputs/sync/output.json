@@ -1,35 +1,38 @@
 {
   "ohos-module-entry": {
     "SELECT_TARGET": "default",
-    "MODULE_BUILD_DIR": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build",
+    "MODULE_BUILD_DIR": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build",
     "TARGETS": {
       "default": {
-        "SOURCE_ROOT": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/src/main",
+        "SOURCE_ROOT": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\src\\main",
         "RESOURCES_PATH": [
-          "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/src/main/resources"
+          "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\src\\main\\resources"
         ],
         "BUILD_PATH": {
-          "OUTPUT_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/outputs/default",
-          "INTERMEDIA_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates",
-          "JS_ASSETS_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/loader_out/default",
-          "JS_LITE_ASSETS_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/loader_out_lite/default",
-          "RES_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/res/default",
-          "RES_PROFILE_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/res/default/resources/base/profile",
-          "ETS_SUPER_VISUAL_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/cache/default/default@CompileArkTS/esmodule",
-          "JS_SUPER_VISUAL_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/cache/default/default@CompileJS/jsbundle",
-          "WORKER_LOADER": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/loader/default/loader.json",
-          "MANIFEST_JSON": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/manifest/default",
-          "OUTPUT_METADATA_JSON": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+          "OUTPUT_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
         }
       }
     }
   },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
-    "MODULE_BUILD_DIR": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/build",
+    "MODULE_BUILD_DIR": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\build",
     "BUNDLE_NAME": "com.example.pagesrouter",
     "BUILD_PATH": {
-      "OUTPUT_PATH": "/Users/wangjiacheng/HarmonyWorkspace/PagesRouter/build/outputs/default"
+      "OUTPUT_PATH": "D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\build\\outputs\\default"
     }
   },
   "version": 1

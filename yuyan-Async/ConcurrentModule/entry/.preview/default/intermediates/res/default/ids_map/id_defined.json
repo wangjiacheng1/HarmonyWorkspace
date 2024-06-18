@@ -1,0 +1,180 @@
+{
+    "record" : 
+    [
+        {
+            "id" : "0x01000000",
+            "name" : "app_name",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000001",
+            "name" : "app_icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000002",
+            "name" : "ic_backward_right",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000003",
+            "name" : "ic_delete",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000004",
+            "name" : "Cancel_Task_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000005",
+            "name" : "Clear_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000006",
+            "name" : "EntryAbility_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000007",
+            "name" : "EntryAbility_label",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000008",
+            "name" : "Execute_After_3s_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000009",
+            "name" : "Execute_Immediately_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000A",
+            "name" : "Function_Task_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000B",
+            "name" : "Result_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000C",
+            "name" : "SortString_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000D",
+            "name" : "Text_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000E",
+            "name" : "clearAndCopyFileText",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100000F",
+            "name" : "copyFileText",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000010",
+            "name" : "logTitle",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000011",
+            "name" : "module_desc",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000012",
+            "name" : "strSortText",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000013",
+            "name" : "workerLog1",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000014",
+            "name" : "workerLog2",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000015",
+            "name" : "workerLog3",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000016",
+            "name" : "workerLog4",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000017",
+            "name" : "workerLog5",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000018",
+            "name" : "workerLogChooseFile",
+            "type" : "string"
+        },
+        {
+            "id" : "0x01000019",
+            "name" : "workerTitleText",
+            "type" : "string"
+        },
+        {
+            "id" : "0x0100001A",
+            "name" : "main_pages",
+            "type" : "profile"
+        },
+        {
+            "id" : "0x0100001B",
+            "name" : "ic_Checkbox_Selected_Enabled",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100001C",
+            "name" : "ic_ok",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100001D",
+            "name" : "start_window_background",
+            "type" : "color"
+        },
+        {
+            "id" : "0x0100001E",
+            "name" : "icon",
+            "type" : "media"
+        },
+        {
+            "id" : "0x0100001F",
+            "name" : "ic_edit",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000020",
+            "name" : "ic_backward",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000021",
+            "name" : "c_Checkbox_Selected",
+            "type" : "media"
+        },
+        {
+            "id" : "0x01000022",
+            "name" : "ic_back",
+            "type" : "media"
+        }
+    ]
+}

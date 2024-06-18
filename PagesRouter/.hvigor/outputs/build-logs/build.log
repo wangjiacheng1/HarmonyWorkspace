@@ -1,0 +1,607 @@
+[2024-04-12T16:47:02.238] [DEBUG] debug-file - env: nodejsVersion=v18.14.1
+[2024-04-12T16:47:02.242] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '4.1.2',
+  dependencies: { '@ohos/hvigor-ohos-plugin': '4.1.2' }
+}
+[2024-04-12T16:47:02.269] [DEBUG] debug-file - env: daemon=true
+[2024-04-12T16:47:03.060] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  analyze: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: []
+}
+[2024-04-12T16:47:03.091] [DEBUG] debug-file - session manager: set active socket. socketId=kSX8IHdxRRBMxIylAAAB
+[2024-04-12T16:47:04.082] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:47:04.090] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-04-12T16:47:04.096] [DEBUG] debug-file - Cache service initialization finished in 7 ms 
+[2024-04-12T16:47:04.099] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-12T16:47:06.434] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-12T16:47:06.435] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-12T16:47:06.632] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-12T16:47:06.635] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-12T16:47:06.641] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-12T16:47:06.641] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-12T16:47:06.649] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-04-12T16:47:06.649] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-04-12T16:47:06.656] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-04-12T16:47:06.657] [DEBUG] debug-file - Target 'default' config: {}
+[2024-04-12T16:47:06.657] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-04-12T16:47:06.657] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-04-12T16:47:06.658] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-04-12T16:47:06.659] [DEBUG] debug-file - require SDK: toolchains,ArkTS; moduleName=entry
+[2024-04-12T16:47:06.667] [DEBUG] debug-file - Module entry task initialization takes 7 ms 
+[2024-04-12T16:47:06.667] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-12T16:47:06.689] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 22 ms 
+[2024-04-12T16:47:06.690] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-04-12T16:47:06.690] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-04-12T16:47:06.690] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-04-12T16:47:06.690] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-04-12T16:47:06.691] [DEBUG] debug-file - Module PagesRouter Collected Dependency: 
+[2024-04-12T16:47:06.691] [DEBUG] debug-file - Module PagesRouter's total dependency: 0
+[2024-04-12T16:47:06.693] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-04-12T16:47:06.699] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains
+[2024-04-12T16:47:06.722] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains
+[2024-04-12T16:47:06.742] [DEBUG] debug-file - Sdk init in 47 ms 
+[2024-04-12T16:47:06.759] [DEBUG] debug-file - Project task initialization takes 15 ms 
+[2024-04-12T16:47:06.764] [DEBUG] debug-file - Sdk init in 6 ms 
+[2024-04-12T16:47:06.768] [DEBUG] debug-file - project has submodules:entry
+[2024-04-12T16:47:06.769] [DEBUG] debug-file - Configuration phase cost:2 s 673 ms 
+[2024-04-12T16:47:06.772] [DEBUG] debug-file - Configuration task cost before running: 2 s 686 ms 
+[2024-04-12T16:47:06.772] [DEBUG] debug-file - entry : init start {
+  rss: 157724672,
+  heapTotal: 122028032,
+  heapUsed: 90192112,
+  external: 1043086,
+  arrayBuffers: 91912
+}
+[2024-04-12T16:47:06.773] [DEBUG] debug-file - Executing task :entry:init
+[2024-04-12T16:47:06.774] [DEBUG] debug-file - entry : init end {
+  rss: 157765632,
+  heapTotal: 122028032,
+  heapUsed: 90271544,
+  external: 1043126,
+  arrayBuffers: 92852
+}
+[2024-04-12T16:47:06.775] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 688 ms 
+[2024-04-12T16:47:06.775] [INFO] debug-file - Finished :entry:init... after 2 ms 
+[2024-04-12T16:47:06.776] [DEBUG] debug-file - PagesRouter : init start {
+  rss: 157782016,
+  heapTotal: 122028032,
+  heapUsed: 90325160,
+  external: 1043126,
+  arrayBuffers: 94659
+}
+[2024-04-12T16:47:06.776] [DEBUG] debug-file - Executing task ::init
+[2024-04-12T16:47:06.776] [DEBUG] debug-file - PagesRouter : init end {
+  rss: 157782016,
+  heapTotal: 122028032,
+  heapUsed: 90350816,
+  external: 1043126,
+  arrayBuffers: 95600
+}
+[2024-04-12T16:47:06.776] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 690 ms 
+[2024-04-12T16:47:06.776] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-04-12T16:47:06.782] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-04-12T16:47:06.786] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-04-12T16:47:06.791] [DEBUG] debug-file - The build request was finished
+[2024-04-12T16:47:06.786] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-04-12T16:47:06.788] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-04-12T16:47:06.793] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-12T16:47:06.794] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-12T16:47:06.790] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-04-12T16:47:06.795] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-04-12T16:47:06.802] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:47:06.802] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:53:03.402] [DEBUG] debug-file - session manager: set active socket. socketId=8saoTicGxpjk99UQAAAD
+[2024-04-12T16:53:03.410] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:53:03.414] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-04-12T16:53:03.416] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2024-04-12T16:53:03.417] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-12T16:53:03.426] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-12T16:53:03.426] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-12T16:53:03.430] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-12T16:53:03.432] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-12T16:53:03.439] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-12T16:53:03.439] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-12T16:53:03.445] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-04-12T16:53:03.445] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-04-12T16:53:03.447] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-04-12T16:53:03.447] [DEBUG] debug-file - Target 'default' config: {}
+[2024-04-12T16:53:03.447] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-04-12T16:53:03.447] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-04-12T16:53:03.448] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-04-12T16:53:03.448] [DEBUG] debug-file - require SDK: toolchains,ArkTS; moduleName=entry
+[2024-04-12T16:53:03.454] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2024-04-12T16:53:03.454] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-12T16:53:03.481] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 27 ms 
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - Module PagesRouter Collected Dependency: 
+[2024-04-12T16:53:03.482] [DEBUG] debug-file - Module PagesRouter's total dependency: 0
+[2024-04-12T16:53:03.484] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-04-12T16:53:03.489] [DEBUG] debug-file - Sdk init in 2 ms 
+[2024-04-12T16:53:03.502] [DEBUG] debug-file - Project task initialization takes 13 ms 
+[2024-04-12T16:53:03.504] [DEBUG] debug-file - Sdk init in 3 ms 
+[2024-04-12T16:53:03.505] [DEBUG] debug-file - project has submodules:entry
+[2024-04-12T16:53:03.507] [DEBUG] debug-file - Configuration phase cost:92 ms 
+[2024-04-12T16:53:03.509] [DEBUG] debug-file - Configuration task cost before running: 98 ms 
+[2024-04-12T16:53:03.511] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.511] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.511] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.515] [DEBUG] debug-file - entry : default@PreBuild start {
+  rss: 145027072,
+  heapTotal: 83492864,
+  heapUsed: 78781320,
+  external: 1042348,
+  arrayBuffers: 92778
+}
+[2024-04-12T16:53:03.515] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2024-04-12T16:53:03.520] [DEBUG] debug-file - entry:default@PreBuild is not up-to-date, since the input file 'D:\PrivateSpace\HarmonyWorkspace\PagesRouter\AppScope\app.json5' has been changed.
+[2024-04-12T16:53:03.520] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 3 ms .
+[2024-04-12T16:53:03.521] [DEBUG] debug-file - current product is not Atomic service.
+[2024-04-12T16:53:03.694] [DEBUG] debug-file - Use tool [win32: JAVA_HOME, CLASSPATH]
+ [
+  { JAVA_HOME: 'D:\\harmony\\DevEco Studio\\jbr' },
+  {
+    CLASSPATH: '.;D:\\Java\\jdk1.8\\lib\\dt.jar;D:\\Java\\jdk1.8\\lib\\tools.jar;'
+  }
+]
+[2024-04-12T16:53:03.694] [DEBUG] debug-file - Use tool [win32: NODE_HOME]
+ [ { NODE_HOME: 'D:\\NoteJS' } ]
+[2024-04-12T16:53:03.696] [DEBUG] debug-file - entry : default@PreBuild end {
+  rss: 158957568,
+  heapTotal: 104558592,
+  heapUsed: 89723992,
+  external: 1042348,
+  arrayBuffers: 96195
+}
+[2024-04-12T16:53:03.696] [DEBUG] debug-file - runTaskFromQueue task cost before running: 285 ms 
+[2024-04-12T16:53:03.697] [INFO] debug-file - Finished :entry:default@PreBuild... after 181 ms 
+[2024-04-12T16:53:03.699] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.699] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.699] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.700] [DEBUG] debug-file - entry : default@PreCheckSyscap start {
+  rss: 159252480,
+  heapTotal: 104558592,
+  heapUsed: 90005408,
+  external: 1050540,
+  arrayBuffers: 107659
+}
+[2024-04-12T16:53:03.700] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2024-04-12T16:53:03.700] [DEBUG] debug-file - entry : default@PreCheckSyscap end {
+  rss: 159285248,
+  heapTotal: 104558592,
+  heapUsed: 90031880,
+  external: 1050540,
+  arrayBuffers: 108636
+}
+[2024-04-12T16:53:03.700] [DEBUG] debug-file - runTaskFromQueue task cost before running: 289 ms 
+[2024-04-12T16:53:03.701] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2024-04-12T16:53:03.702] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.702] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.702] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.703] [DEBUG] debug-file - entry : default@CreateBuildProfile start {
+  rss: 159551488,
+  heapTotal: 104558592,
+  heapUsed: 90270656,
+  external: 1050540,
+  arrayBuffers: 111923
+}
+[2024-04-12T16:53:03.703] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2024-04-12T16:53:03.707] [DEBUG] debug-file - entry : default@CreateBuildProfile end {
+  rss: 159698944,
+  heapTotal: 104558592,
+  heapUsed: 90356808,
+  external: 1050540,
+  arrayBuffers: 112908
+}
+[2024-04-12T16:53:03.707] [DEBUG] debug-file - runTaskFromQueue task cost before running: 296 ms 
+[2024-04-12T16:53:03.708] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 5 ms 
+[2024-04-12T16:53:03.710] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.710] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.710] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.713] [DEBUG] debug-file - entry : default@GenerateLoaderJson start {
+  rss: 160108544,
+  heapTotal: 104558592,
+  heapUsed: 90853568,
+  external: 1050540,
+  arrayBuffers: 116207
+}
+[2024-04-12T16:53:03.713] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2024-04-12T16:53:03.716] [DEBUG] debug-file - entry:default@GenerateLoaderJson is not up-to-date, since the output file 'D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\loader\default\loader.json' has been changed.
+[2024-04-12T16:53:03.716] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 2 ms .
+[2024-04-12T16:53:03.721] [DEBUG] debug-file - entry : default@GenerateLoaderJson end {
+  rss: 160411648,
+  heapTotal: 104558592,
+  heapUsed: 91072144,
+  external: 1050551,
+  arrayBuffers: 118257
+}
+[2024-04-12T16:53:03.721] [DEBUG] debug-file - runTaskFromQueue task cost before running: 310 ms 
+[2024-04-12T16:53:03.722] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 8 ms 
+[2024-04-12T16:53:03.724] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.724] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.724] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.725] [DEBUG] debug-file - entry : default@MergeProfile start {
+  rss: 160702464,
+  heapTotal: 104558592,
+  heapUsed: 91345368,
+  external: 1058743,
+  arrayBuffers: 129748
+}
+[2024-04-12T16:53:03.725] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2024-04-12T16:53:03.726] [DEBUG] debug-file - entry:default@MergeProfile is not up-to-date, since the input file 'D:\PrivateSpace\HarmonyWorkspace\PagesRouter\AppScope\app.json5' has been changed.
+[2024-04-12T16:53:03.726] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 1 ms .
+[2024-04-12T16:53:03.727] [DEBUG] debug-file - Change app api release type with 'Release'
+[2024-04-12T16:53:03.727] [DEBUG] debug-file - Change app compile API version with '4.1.0.73'
+[2024-04-12T16:53:03.728] [DEBUG] debug-file - Change app target API version with '40100011'
+[2024-04-12T16:53:03.728] [DEBUG] debug-file - Change app minimum API version with '40100011'
+[2024-04-12T16:53:03.729] [DEBUG] debug-file - entry : default@MergeProfile end {
+  rss: 160903168,
+  heapTotal: 104558592,
+  heapUsed: 91499264,
+  external: 1058743,
+  arrayBuffers: 133373
+}
+[2024-04-12T16:53:03.729] [DEBUG] debug-file - runTaskFromQueue task cost before running: 318 ms 
+[2024-04-12T16:53:03.729] [INFO] debug-file - Finished :entry:default@MergeProfile... after 4 ms 
+[2024-04-12T16:53:03.732] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.732] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:03.732] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:03.736] [DEBUG] debug-file - entry : default@ProcessProfile start {
+  rss: 161386496,
+  heapTotal: 104820736,
+  heapUsed: 92018040,
+  external: 1058743,
+  arrayBuffers: 136654
+}
+[2024-04-12T16:53:03.736] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2024-04-12T16:53:03.737] [DEBUG] debug-file - entry:default@ProcessProfile is not up-to-date, since the input file 'D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\merge_profile\default\module.json' has been changed.
+[2024-04-12T16:53:03.737] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2024-04-12T16:53:03.740] [DEBUG] debug-file - [
+  'D:\\NoteJS\\node.exe',
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\ets\\build-tools\\ets-loader\\bin\\ark\\ts2abc.js',
+  '--target-api-version',
+  '11'
+]
+[2024-04-12T16:53:04.840] [DEBUG] debug-file - 11.0.2.0
+[2024-04-12T16:53:04.841] [DEBUG] debug-file - entry : default@ProcessProfile end {
+  rss: 162811904,
+  heapTotal: 105082880,
+  heapUsed: 77417064,
+  external: 1056924,
+  arrayBuffers: 137838
+}
+[2024-04-12T16:53:04.841] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 430 ms 
+[2024-04-12T16:53:04.842] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 1 s 106 ms 
+[2024-04-12T16:53:04.844] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:04.844] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:04.844] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:04.847] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2024-04-12T16:53:04.848] [DEBUG] debug-file - entry : default@PreviewProcessResource start {
+  rss: 162250752,
+  heapTotal: 105082880,
+  heapUsed: 77757176,
+  external: 1065116,
+  arrayBuffers: 149792
+}
+[2024-04-12T16:53:04.851] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2024-04-12T16:53:04.851] [DEBUG] debug-file - entry : default@PreviewProcessResource end {
+  rss: 162250752,
+  heapTotal: 105082880,
+  heapUsed: 77956856,
+  external: 1065116,
+  arrayBuffers: 150785
+}
+[2024-04-12T16:53:04.853] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 442 ms 
+[2024-04-12T16:53:04.856] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 3 ms 
+[2024-04-12T16:53:04.859] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:04.859] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2024-04-12T16:53:04.859] [DEBUG] debug-file - jsonObjWithoutParam {"license":"ISC","devDependencies":{},"name":"entry","description":"example description","repository":{},"version":"1.0.0","dependencies":{}} at undefined
+[2024-04-12T16:53:04.861] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2024-04-12T16:53:04.862] [DEBUG] debug-file - entry : default@PreviewCompileResource start {
+  rss: 162263040,
+  heapTotal: 105082880,
+  heapUsed: 78455944,
+  external: 1073308,
+  arrayBuffers: 162751
+}
+[2024-04-12T16:53:04.863] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2024-04-12T16:53:04.894] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the input file 'D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\src\main\resources' has been changed.
+[2024-04-12T16:53:04.894] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 31 ms .
+[2024-04-12T16:53:04.905] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-x',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\AppScope\\resources',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+]
+[2024-04-12T16:53:04.906] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 163430400,
+  heapTotal: 105082880,
+  heapUsed: 79087432,
+  external: 1073453,
+  arrayBuffers: 107975
+} os memoryUsage :15.155086517333984
+[2024-04-12T16:53:05.453] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-04-12T16:53:05.459] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-x',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\src\\main\\resources',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+]
+[2024-04-12T16:53:05.460] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 163606528,
+  heapTotal: 105082880,
+  heapUsed: 79307752,
+  external: 1073579,
+  arrayBuffers: 108116
+} os memoryUsage :15.160991668701172
+[2024-04-12T16:53:05.513] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-12T16:53:05.514] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-12T16:53:05.514] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:53:05.516] [WARN] debug-file - BUILD FAILED in 2 s 104 ms 
+[2024-04-12T16:53:05.517] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\AppScope\app.json5 cache from map.
+[2024-04-12T16:53:05.517] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\src\main\module.json5 cache by regenerate.
+[2024-04-12T16:53:05.518] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\build-profile.json5 cache by regenerate.
+[2024-04-12T16:53:05.518] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\build-profile.json5 cache by regenerate.
+[2024-04-12T16:53:05.519] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\src\main\resources\base\profile\main_pages.json cache by regenerate.
+[2024-04-12T16:53:05.519] [DEBUG] debug-file - Update task entry:default@PreBuild input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\oh-package.json5 cache by regenerate.
+[2024-04-12T16:53:05.520] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:5 ms .
+[2024-04-12T16:53:05.520] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\AppScope\app.json5 cache by regenerate.
+[2024-04-12T16:53:05.521] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\build-profile.json5 cache by regenerate.
+[2024-04-12T16:53:05.522] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\generated\profile\default\BuildProfile.ets cache.
+[2024-04-12T16:53:05.523] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:3 ms .
+[2024-04-12T16:53:05.523] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\loader\default\loader.json cache.
+[2024-04-12T16:53:05.524] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:1 ms .
+[2024-04-12T16:53:05.524] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\AppScope\app.json5 cache from map.
+[2024-04-12T16:53:05.524] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\build-profile.json5 cache by regenerate.
+[2024-04-12T16:53:05.525] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\src\main\module.json5 cache by regenerate.
+[2024-04-12T16:53:05.525] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\merge_profile\default\module.json cache.
+[2024-04-12T16:53:05.525] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:2 ms .
+[2024-04-12T16:53:05.525] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\merge_profile\default\module.json cache from map.
+[2024-04-12T16:53:05.525] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\process_profile\default\module.json cache.
+[2024-04-12T16:53:05.526] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2024-04-12T16:53:05.526] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\src\main\resources cache from map.
+[2024-04-12T16:53:05.527] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2024-04-12T16:53:05.527] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\intermediates\res\default cache.
+[2024-04-12T16:53:05.529] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\.preview\default\generated\r\default cache.
+[2024-04-12T16:53:05.531] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:6 ms .
+[2024-04-12T16:53:05.560] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-04-12T16:53:05.561] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-12T16:53:05.747] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-04-12T16:53:05.751] [DEBUG] debug-file - Use tool [D:\harmony\HarmonySDK\3.1.0\HarmonyOS-NEXT-DP2\base\toolchains\restool.exe]
+ [
+  'D:\\harmony\\HarmonySDK\\3.1.0\\HarmonyOS-NEXT-DP2\\base\\toolchains\\restool.exe',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  '-p',
+  'com.example.pagesrouter',
+  '-r',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  '-z',
+  '--ids',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '-i',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  '-i',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  '-o',
+  'D:\\PrivateSpace\\HarmonyWorkspace\\PagesRouter\\entry\\.preview\\default\\intermediates\\res\\default'
+]
+[2024-04-12T16:53:05.752] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 164474880,
+  heapTotal: 105267200,
+  heapUsed: 81341656,
+  external: 1207799,
+  arrayBuffers: 243121
+} os memoryUsage :15.163055419921875
+[2024-04-12T16:53:06.194] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2024-04-12T16:53:06.207] [DEBUG] debug-file - entry : default@PreviewCompileResource end {
+  rss: 164626432,
+  heapTotal: 105267200,
+  heapUsed: 81475808,
+  external: 1207925,
+  arrayBuffers: 241583
+}
+[2024-04-12T16:53:06.208] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2024-04-12T16:53:06.208] [WARN] debug-file - Resource compile task initialize failed, task PreviewProcessResource not found.
+[2024-04-12T16:53:06.208] [DEBUG] debug-file - ERROR: stacktrace = Error: Resource compile task initialize failed, task PreviewProcessResource not found.
+    at PreviewCompileResource.getEnabled (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-plugin@4.1.2_@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor-ohos-plugin\src\tasks\abstract\abstract-compile-resource.js:1:1577)
+    at runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2032)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async ExecuteModulePipeline.executeTask (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\lifecycle\execute\mode\abstract-execute-pipeline.js:1:1381)
+[2024-04-12T16:53:06.209] [ERROR] debug-file - Error: Resource compile task initialize failed, task PreviewProcessResource not found.
+    at PreviewCompileResource.getEnabled (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor-ohos-plugin@4.1.2_@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor-ohos-plugin\src\tasks\abstract\abstract-compile-resource.js:1:1577)
+    at runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2032)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async runTaskFromQueue (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\task\core\task-runner.js:1:2480)
+    at async ExecuteModulePipeline.executeTask (C:\Users\wangjiacheng\.hvigor\project_caches\dec88c375e1ec3ce7acebec47f45fd0a\workspace\node_modules\.pnpm\@ohos+hvigor@4.1.2\node_modules\@ohos\hvigor\src\base\internal\lifecycle\execute\mode\abstract-execute-pipeline.js:1:1381)
+[2024-04-15T09:04:38.228] [DEBUG] debug-file - env: nodejsVersion=v18.14.1
+[2024-04-15T09:04:38.235] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  hvigorVersion: '4.1.2',
+  dependencies: { '@ohos/hvigor-ohos-plugin': '4.1.2' }
+}
+[2024-04-15T09:04:38.279] [DEBUG] debug-file - env: daemon=true
+[2024-04-15T09:04:40.009] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  analyze: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: []
+}
+[2024-04-15T09:04:40.064] [DEBUG] debug-file - session manager: set active socket. socketId=6U-PltJ6fw63tkksAAAB
+[2024-04-15T09:04:41.783] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-15T09:04:41.798] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2024-04-15T09:04:41.809] [DEBUG] debug-file - Cache service initialization finished in 11 ms 
+[2024-04-15T09:04:41.815] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-15T09:04:45.175] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-15T09:04:45.176] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-15T09:04:45.470] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\hvigorfile.ts
+[2024-04-15T09:04:45.472] [DEBUG] debug-file - hvigorfile, resolving D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-15T09:04:45.480] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2024-04-15T09:04:45.481] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2024-04-15T09:04:45.493] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2024-04-15T09:04:45.493] [DEBUG] debug-file - Module entry's total dependency: 0
+[2024-04-15T09:04:45.500] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2024-04-15T09:04:45.500] [DEBUG] debug-file - Target 'default' config: {}
+[2024-04-15T09:04:45.502] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+}
+[2024-04-15T09:04:45.502] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2024-04-15T09:04:45.503] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-04-15T09:04:45.506] [DEBUG] debug-file - require SDK: toolchains,ArkTS; moduleName=entry
+[2024-04-15T09:04:45.521] [DEBUG] debug-file - Module entry task initialization takes 11 ms 
+[2024-04-15T09:04:45.521] [DEBUG] debug-file - hvigorfile, resolve finished D:\PrivateSpace\HarmonyWorkspace\PagesRouter\entry\hvigorfile.ts
+[2024-04-15T09:04:45.551] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 31 ms 
+[2024-04-15T09:04:45.553] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2024-04-15T09:04:45.553] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2024-04-15T09:04:45.553] [DEBUG] debug-file - Product 'default' build option: {}
+[2024-04-15T09:04:45.553] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2024-04-15T09:04:45.554] [DEBUG] debug-file - Module PagesRouter Collected Dependency: 
+[2024-04-15T09:04:45.554] [DEBUG] debug-file - Module PagesRouter's total dependency: 0
+[2024-04-15T09:04:45.557] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2024-04-15T09:04:45.567] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains
+[2024-04-15T09:04:45.599] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains
+[2024-04-15T09:04:45.627] [DEBUG] debug-file - Sdk init in 66 ms 
+[2024-04-15T09:04:45.649] [DEBUG] debug-file - Project task initialization takes 21 ms 
+[2024-04-15T09:04:45.654] [DEBUG] debug-file - Sdk init in 5 ms 
+[2024-04-15T09:04:45.659] [DEBUG] debug-file - project has submodules:entry
+[2024-04-15T09:04:45.661] [DEBUG] debug-file - Configuration phase cost:3 s 851 ms 
+[2024-04-15T09:04:45.665] [DEBUG] debug-file - Configuration task cost before running: 3 s 875 ms 
+[2024-04-15T09:04:45.666] [DEBUG] debug-file - entry : init start {
+  rss: 158650368,
+  heapTotal: 121765888,
+  heapUsed: 89952968,
+  external: 1043086,
+  arrayBuffers: 91914
+}
+[2024-04-15T09:04:45.666] [DEBUG] debug-file - Executing task :entry:init
+[2024-04-15T09:04:45.668] [DEBUG] debug-file - entry : init end {
+  rss: 158679040,
+  heapTotal: 121765888,
+  heapUsed: 90032416,
+  external: 1043126,
+  arrayBuffers: 92854
+}
+[2024-04-15T09:04:45.668] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 879 ms 
+[2024-04-15T09:04:45.669] [INFO] debug-file - Finished :entry:init... after 3 ms 
+[2024-04-15T09:04:45.670] [DEBUG] debug-file - PagesRouter : init start {
+  rss: 158695424,
+  heapTotal: 121765888,
+  heapUsed: 90086064,
+  external: 1043126,
+  arrayBuffers: 94661
+}
+[2024-04-15T09:04:45.670] [DEBUG] debug-file - Executing task ::init
+[2024-04-15T09:04:45.670] [DEBUG] debug-file - PagesRouter : init end {
+  rss: 158707712,
+  heapTotal: 121765888,
+  heapUsed: 90111744,
+  external: 1043126,
+  arrayBuffers: 95602
+}
+[2024-04-15T09:04:45.670] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 881 ms 
+[2024-04-15T09:04:45.671] [INFO] debug-file - Finished ::init... after 1 ms 
+[2024-04-15T09:04:45.679] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default"
+} in this build.
+[2024-04-15T09:04:45.683] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2024-04-15T09:04:45.688] [DEBUG] debug-file - The build request was finished
+[2024-04-15T09:04:45.683] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2024-04-15T09:04:45.685] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2024-04-15T09:04:45.691] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-15T09:04:45.692] [DEBUG] debug-file - session manager: send message to worker process.
+[2024-04-15T09:04:45.689] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2024-04-15T09:04:45.694] [DEBUG] debug-file - hvigor build process will be closed.
+[2024-04-15T09:04:45.699] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2024-04-15T09:04:45.700] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.

@@ -14,13 +14,24 @@
       <excludeFolder url="file://$MODULE_DIR$/../../entry/oh_modules" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="ArkTS-3.2.12.5" type="ArkUI">
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-NEXT-DP2(hms)" type="ArkUI">
         <CLASSES />
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/Library/Huawei/Sdk/openharmony/9/ets/api" />
-          <root url="file://$USER_HOME$/Library/Huawei/Sdk/openharmony/9/ets/component" />
+          <root url="file://$MODULE_DIR$/../../../../../harmony/HarmonySDK/3.1.0/HarmonyOS-NEXT-DP2/hms/ets/api" />
+          <root url="file://$MODULE_DIR$/../../../../../harmony/HarmonySDK/3.1.0/HarmonyOS-NEXT-DP2/hms/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-NEXT-DP2(base)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../../../../harmony/HarmonySDK/3.1.0/HarmonyOS-NEXT-DP2/base/ets/api" />
+          <root url="file://$MODULE_DIR$/../../../../../harmony/HarmonySDK/3.1.0/HarmonyOS-NEXT-DP2/base/ets/component" />
+          <root url="file://$MODULE_DIR$/../../../../../harmony/HarmonySDK/3.1.0/HarmonyOS-NEXT-DP2/base/ets/kits" />
         </SOURCES>
       </library>
     </orderEntry>

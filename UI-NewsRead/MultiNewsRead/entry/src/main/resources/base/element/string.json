@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "NewsRead"
+    },
+    {
+      "name": "project_name",
+      "value": "新闻阅读差异化开发内容"
+    },
+    {
+      "name": "hot_rank",
+      "value": "热榜"
+    },
+    {
+      "name": "font_family",
+      "value": "HarmonyHeiTi-Medium"
+    },
+    {
+      "name": "font_family_normal",
+      "value": "HarmonyHeiTi"
+    },
+    {
+      "name": "font_family_bold",
+      "value": "HarmonyHeiTi-Bold"
+    },
+    {
+      "name": "router_back",
+      "value": "返回"
+    }
+  ]
+}

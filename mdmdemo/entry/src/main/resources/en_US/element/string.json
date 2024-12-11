@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MDMDemo"
+    },
+    {
+      "name": "device_manager_title",
+      "value": "Device Manager Test"
+    },
+    {
+      "name": "device_manager_enable_button_title",
+      "value": "Enable device manager"
+    },
+    {
+      "name": "device_manager_disable_button_title",
+      "value": "Disable device manager"
+    },
+    {
+      "name": "device_manager_status_button_title",
+      "value": "Example Query the device manager status"
+    },
+    {
+      "name": "install_listener_subscribe_button_title",
+      "value": "Subscribe to app install events"
+    },
+    {
+      "name": "install_listener_unsubscribe_button_title",
+      "value": "Subscribe to app install events"
+    },
+    {
+      "name": "wifi_manager_title",
+      "value": "WI-FI Manager Test"
+    },
+    {
+      "name": "disable_wifi_button_title",
+      "value": "Disable WiFi"
+    },
+    {
+      "name": "enable_wifi_button_title",
+      "value": "Enable WiFi"
+    },
+    {
+      "name": "disable_hotspot_button_title",
+      "value": "Disable Hotspot"
+    },
+    {
+      "name": "enable_hotspot_button_title",
+      "value": "Enable Hotspot"
+    }
+  ]
+}

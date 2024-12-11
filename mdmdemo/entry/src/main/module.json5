@@ -1,0 +1,129 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes":  [
+      "phone",
+      "tablet",
+      "default"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+    {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:icon",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon" : "$media:startIcon",
+        "startWindowBackground" : "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "EnterPriseAbility",
+        "type": "enterpriseAdmin",
+        "exported": true,
+        "srcEntry": "./ets/enterpriseability/EnterPriseAbility.ets"
+      }
+    ],
+    "requestPermissions": [
+      //MDM permission
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_ACCOUNT_POLICY"
+      },
+      {
+        "name": "ohos.permission.MANAGE_ENTERPRISE_DEVICE_ADMIN"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SUBSCRIBE_MANAGED_EVENT"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_SET_APP_RUNNING_POLICY"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_APPLICATION"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_BROWSER_POLICY"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_BUNDLE_INSTALL_POLICY"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_INSTALL_BUNDLE"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_DATETIME"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_GET_DEVICE_INFO"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_CERTIFICATE"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_NETWORK"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_NETWORK"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_RESTRICTIONS"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_USB"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_SET_WIFI"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_WIFI"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_BLUETOOTH"
+      },
+      {
+        "name": "ohos.permission.ENTERPRISE_MANAGE_LOCATION"
+      },
+      {
+        //MDM设备关机、重启等
+        "name": "ohos.permission.ENTERPRISE_OPERATE_DEVICE"
+      },
+      {
+        //MDM管理设备管理器
+        "name": "ohos.permission.ENTERPRISE_ADMIN_MANAGE"
+      },
+      {
+        //MDM管理系统设置相关
+        "name": "ohos.permission.ENTERPRISE_MANAGE_SETTINGS"
+      },
+      {
+        //MDM管理系统参数
+        "name": "ohos.permission.ENTERPRISE_MANAGE_SYSTEM"
+      },
+      {
+        //MDM限制类策略所需权限
+        "name": "ohos.permission.ENTERPRISE_MANAGE_SECURITY"
+      }
+    ]
+  }
+}

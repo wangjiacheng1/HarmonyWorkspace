@@ -1,0 +1,208 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MDMDemo"
+    },
+    {
+      "name": "confirm",
+      "value": "确定"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "default_loading_text",
+      "value": "加载中..."
+    },
+    {
+      "name": "mdm_control_title",
+      "value": "MDM管控"
+    },
+    {
+      "name": "device_manager_title",
+      "value": "设备管理器管控"
+    },
+    {
+      "name": "device_manager_enable_button_title",
+      "value": "激活设备管理器"
+    },
+    {
+      "name": "device_manager_disable_button_title",
+      "value": "解除设备管理器"
+    },
+    {
+      "name": "device_manager_status_button_title",
+      "value": "查询设备管理器状态"
+    },
+    {
+      "name": "install_listener_subscribe_button_title",
+      "value": "开始监听安装卸载事件"
+    },
+    {
+      "name": "install_listener_unsubscribe_button_title",
+      "value": "取消监听安装卸载事件"
+    },
+    {
+      "name": "wifi_manager_title",
+      "value": "WiFi管控"
+    },
+    {
+      "name": "disable_wifi_button_title",
+      "value": "禁用WiFi"
+    },
+    {
+      "name": "enable_wifi_button_title",
+      "value": "启用WiFi"
+    },
+    {
+      "name": "disable_hotspot_button_title",
+      "value": "禁用热点"
+    },
+    {
+      "name": "enable_hotspot_button_title",
+      "value": "启用热点"
+    },
+    {
+      "name": "mdm_control_default",
+      "value": "不管控"
+    },
+    {
+      "name": "mdm_control_force_close",
+      "value": "强制关闭"
+    },
+    {
+      "name": "mdm_control_force_open",
+      "value": "强制开启"
+    },
+    {
+      "name": "title_admin_manager",
+      "value": "设备管理器"
+    },
+    {
+      "name": "title_wifi_status",
+      "value": "当前WiFi状态"
+    },
+    {
+      "name": "title_disable_wifi",
+      "value": "WIFI禁用"
+    },
+    {
+      "name": "title_disable_bluetooth",
+      "value": "蓝牙禁用"
+    },
+    {
+      "name": "title_disable_modify_sys_date",
+      "value": "修改系统时间禁用"
+    },
+    {
+      "name": "title_control_gps",
+      "value": "GPS管控"
+    },
+    {
+      "name": "title_disallow_running_apps",
+      "value": "应用运行黑名单"
+    },
+    {
+      "name": "title_device_operate",
+      "value": "设备操作"
+    },
+    {
+      "name": "select_device_operate_lock_screen",
+      "value": "设备锁定"
+    },
+    {
+      "name": "select_device_operate_default",
+      "value": "无操作"
+    },
+    {
+      "name": "select_device_operate_shutdown",
+      "value": "设备关机"
+    },
+    {
+      "name": "select_device_operate_reboot",
+      "value": "设备重启"
+    },
+    {
+      "name": "select_device_operate_reset",
+      "value": "设备恢复出厂"
+    },
+    {
+      "name": "title_disallow_add_system_user",
+      "value": "禁止添加用户"
+    },
+    {
+      "name": "title_disallow_microphone",
+      "value": "禁用麦克风"
+    },
+    {
+      "name": "title_disallow_screenshot",
+      "value": "禁用截屏"
+    },
+    {
+      "name": "title_disallow_screen_record",
+      "value": "禁用录屏"
+    },
+    {
+      "name": "title_disallow_fingerprint",
+      "value": "禁用指纹识别"
+    },
+    {
+      "name": "title_disallow_install_apps",
+      "value": "应用安装黑名单"
+    },
+    {
+      "name": "title_disable_system_update",
+      "value": "禁用系统升级"
+    },
+    {
+      "name": "title_auto_start_app_list",
+      "value": "开机自启应用名单，仅支持2in1设备"
+    },
+    {
+      "name": "title_set_device_screen_off",
+      "value": "设备息屏时间"
+    },
+    {
+      "name": "device_screen_off_15s",
+      "value": "15秒"
+    },
+    {
+      "name": "device_screen_off_30s",
+      "value": "30秒"
+    },
+    {
+      "name": "device_screen_off_1m",
+      "value": "1分钟"
+    },
+    {
+      "name": "device_screen_off_2m",
+      "value": "2分钟"
+    },
+    {
+      "name": "device_screen_off_5m",
+      "value": "5分钟"
+    },
+    {
+      "name": "device_screen_off_10m",
+      "value": "10分钟"
+    },
+    {
+      "name": "title_device_password_policy",
+      "value": "设备锁屏密码策略"
+    },
+    {
+      "name": "title_usb_white_list_policy",
+      "value": "USB设备白名单"
+    }
+  ]
+}

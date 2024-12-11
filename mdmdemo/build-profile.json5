@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "develop",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "00000021470004E0BBC877C0D2D4887BACFADA31A23009ECB8F6AF6069D67070A01ADAFCAEAE00B08A23EFC0ADE3B73B0B",
+          "certpath": "./SignConfig/TrustSpaceMDMDebug.cer",
+          "keyAlias": "qax_mobile_key",
+          "keyPassword": "00000021F8AFFAAFBA89002174998CA9CED019596DA67CBA6638B798EA0DF58D3EB2502D0242EA0C880831E005E3CD0AD8",
+          "profile": "./SignConfig/TrustSpaceDebug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "./SignConfig/TrustSpaceMdmSign.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "develop",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

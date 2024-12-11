@@ -1,0 +1,60 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "MDMDemo"
+    },
+    {
+      "name": "device_manager_title",
+      "value": "设备管理器管控"
+    },
+    {
+      "name": "device_manager_enable_button_title",
+      "value": "激活设备管理器"
+    },
+    {
+      "name": "device_manager_disable_button_title",
+      "value": "解除设备管理器"
+    },
+    {
+      "name": "device_manager_status_button_title",
+      "value": "查询设备管理器状态"
+    },
+    {
+      "name": "install_listener_subscribe_button_title",
+      "value": "开始监听安装卸载事件"
+    },
+    {
+      "name": "install_listener_unsubscribe_button_title",
+      "value": "取消监听安装卸载事件"
+    },
+    {
+      "name": "wifi_manager_title",
+      "value": "WiFi管控"
+    },
+    {
+      "name": "disable_wifi_button_title",
+      "value": "禁用WiFi"
+    },
+    {
+      "name": "enable_wifi_button_title",
+      "value": "启用WiFi"
+    },
+    {
+      "name": "disable_hotspot_button_title",
+      "value": "禁用热点"
+    },
+    {
+      "name": "enable_hotspot_button_title",
+      "value": "启用热点"
+    }
+  ]
+}
